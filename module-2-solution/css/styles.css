@@ -37,7 +37,7 @@ p.section-title
     right: 0px;
     top:0px;
     font-size: 125%;
-    height: 28px;
+    line-height: 28px;
     padding: 4px 12px 4px 12px;
 }
 
@@ -46,7 +46,7 @@ p.section-content
 {
     border: 1px solid black;
     background-color:#B6B6B6;
-    padding: 32px 4px 4px 4px;
+    padding: 42px 4px 4px 4px;
 
 }
 /*style for the heading */
