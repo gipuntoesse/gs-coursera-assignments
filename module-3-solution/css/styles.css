@@ -18,7 +18,7 @@ body {
 .navbar-brand
 {
     padding: 0;
-    height: 50px;
+height: 100%;
 }
 
 
@@ -28,7 +28,7 @@ body {
 
     font-family: 'Limelight', cursive;
     font-size: 1.8em;
-line-height:50px;
+    line-height:50px;
 
     color:#23394E;
     text-shadow: 1px 1px 1px #DEE4F0;
