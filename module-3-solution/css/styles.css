@@ -1,1 +1,170 @@
+body {
+    font-size: 16px;
+    color:#23394E;
+    background-color: #fff;
 
+}
+
+/**HEADER**/
+#header-nav{
+
+    background-color: #a4f754;
+    border-radius: 0;
+    border: 1px solid #23394E;
+
+
+}
+
+.navbar-brand
+{
+    padding: 0;
+    height: 50px;
+}
+
+
+
+.navbar-brand h1 { /* Restaurant name */
+
+
+    font-family: 'Limelight', cursive;
+    font-size: 1.8em;
+line-height:50px;
+
+    color:#23394E;
+    text-shadow: 1px 1px 1px #DEE4F0;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-weight: bold;
+
+
+
+
+}
+
+.navbar-brand a {
+    text-decoration:none;
+}
+
+
+
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+
+    border: 1px solid #23394E;
+
+}
+.navbar-header button.navbar-toggle:hover, .navbar-header button.navbar-toggle:focus {
+
+    background:  #E8FDD4;
+}
+
+#collapsable-nav{
+
+border-color: #23394E;
+
+}
+
+
+
+#nav-list{
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#nav-list a {
+
+    color:#23394E;
+    text-align: center;
+    font-size: 1.2em;
+
+}
+#nav-list a:hover {
+
+    background: #E8FDD4;
+}
+/**HEADER END**/
+
+/** HOME PAGE**/
+#page-heading{
+    border-bottom: none;
+}
+
+
+#page-heading h2{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+
+}
+
+div.row
+{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+#section-content
+{
+    font-size: 0.9em;
+
+    background-color: #a4f754;
+}
+#section-content h3
+{
+    font-size: 1.2em;
+    font-weight: bold;
+    text-align:center;
+}
+/** HOME PAGE END**/
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+
+    .navbar-brand
+    {
+        margin-left: 30px;
+    }
+    div.row
+    {
+        margin-right: 15px;
+        margin-left: 15px;
+    }
+    .navbar-toggle
+    {
+        right: 15px;
+
+    }
+}
+
+@media (max-width:270px)
+{
+
+
+    .navbar-brand h1 { /* Restaurant name */
+
+        font-size: 10vw;
+        line-height: 50px;
+        margin: 0;
+
+    }
+
+
+
+
+
+}
